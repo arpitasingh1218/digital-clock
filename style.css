@@ -1,0 +1,50 @@
+body{
+    background-color:grey;
+  
+}
+button{
+    height:50px;
+    width:150px;
+    border-radius:10px;
+    margin-left:25px;
+    background-color:rgba(128, 0, 128, 0.733);
+    color:white;
+}
+.digital-clock{
+    display: flex;
+    max-width: max-content;
+
+}
+
+.part2{
+    height:100px;
+    width:350px;
+    background-color:aliceblue;
+    display:flex;
+    justify-content: right;
+    
+}
+.time{
+    padding:20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    margin:25px;
+}
+.hour{
+    background-color:rgb(128, 128, 128);
+    height:55px;
+    width:50px;
+    margin:5px;
+}
+.minute{
+    background-color:rgb(128, 128, 128);
+    height:55px;
+    width:50px;
+    margin:5px;
+}
+.second{
+    background-color:rgb(128, 128, 128);
+    height:55px;
+    width:50px;
+    margin:5px;
+}
